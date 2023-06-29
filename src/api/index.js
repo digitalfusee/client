@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let API_URL = "https://demo-df.herokuapp.com/";
+let API_URL = "https://digitalfuse.onrender.com/api/";
 if (window.location.hostname === "localhost") {
   API_URL = "https://localhost:7037/api/";
 }
